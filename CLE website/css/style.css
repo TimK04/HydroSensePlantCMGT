@@ -62,6 +62,13 @@ section {
   border-radius: 8px;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
+.topsection img {
+  width: 40vw;
+  height: auto;
+  margin-top: 2vw;
+  margin-bottom: 2vw;
+  border-radius: 1vw;
+}
 section a {
   text-decoration: none;
   background-color: white;
@@ -172,6 +179,10 @@ footer ul li a {
   section a:hover {
     display: flex;
     justify-content: center;
+  }
+  .topsection img {
+    width: 100%;
+    height: auto;
   }
   .bottomsection p {
     margin-bottom: 3vw;

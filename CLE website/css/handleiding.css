@@ -68,7 +68,13 @@ section {
 .bottomsection {
   margin-bottom: 5vw;
 }
-
+.bottomsection img {
+  width: 40vw;
+  height: auto;
+  margin-top: 2vw;
+  margin-bottom: 2vw;
+  border-radius: 1vw;
+}
 section ul li {
   list-style: none;
 }
@@ -154,16 +160,13 @@ footer ul li a {
     margin: 10px 0;
     padding: 15px;
   }
-
-  section img,
-  .images {
-    width: 100%;
-    height: auto;
-  }
-
   .container {
     flex-direction: column;
     margin-top: 10px;
+  }
+  .bottomsection img {
+    width: 100%;
+    height: auto;
   }
 
   footer {
